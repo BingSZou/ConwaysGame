@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font: sans-serif;
+}
+
+h1,
+h2 {
+    margin: 2rem
+}
+
+#grid {
+    margin: auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#grid input[type="checkbox"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 0;
+    display: block;
+}
+
+#grid input[type="checkbox"]:checked {
+    background-color: green;
+}
+
+#grid td {
+    border: 1px solid gray;
+}
+
+.btn {
+    margin: 1rem;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(75, 161, 201);
+    font: inherit;
+    box-shadow: rgba(red, green, blue, alpha);
+    color: black;
+    border: 1px solid rgba(0, 0, 0.3);
+
+}
+
+.btn:disabled {
+    color: lightblue;
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.btn:hover {
+    color: blue;
+    transition-duration: 0.5s;
+}
